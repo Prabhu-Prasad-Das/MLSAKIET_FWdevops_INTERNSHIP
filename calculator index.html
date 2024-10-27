@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="Calculator_icon.webp">
+    <link rel="stylesheet" href="calculator style.css">
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="bg-white shadow-lg rounded-lg p-6 max-w-xs w-full">
+            <h1 class="text-3xl font-bold text-center mb-6">Calculator</h1>
+            <div id="calculator" class="grid grid-cols-4 gap-4">
+                <input type="text" id="display" class="display">
+                <button class="calc-btn">7</button>
+                <button class="calc-btn">8</button>
+                <button class="calc-btn">9</button>
+                <button class="calc-btn operator">/</button>
+                <button class="calc-btn">4</button>
+                <button class="calc-btn">5</button>
+                <button class="calc-btn">6</button>
+                <button class="calc-btn operator">*</button>
+                <button class="calc-btn">1</button>
+                <button class="calc-btn">2</button>
+                <button class="calc-btn">3</button>
+                <button class="calc-btn operator">-</button>
+                <button class="calc-btn">0</button>
+                <button class="calc-btn">.</button>
+                <button id="clear" class="calc-btn">C</button>
+                <button class="calc-btn operator">+</button>
+                <button id="equals" class="calc-btn operator col-span-4 ">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator script.js"></script>
+</body>
+</html>
+
+<!--Prabhu Prasad Das-->

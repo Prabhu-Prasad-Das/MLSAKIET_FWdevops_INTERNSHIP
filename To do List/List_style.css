@@ -1,0 +1,92 @@
+body {
+    background-color: #FFFFE0; 
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.list-box {
+    margin-bottom: 1rem; 
+    border-radius: 8px; 
+    width: 300px; 
+    max-width: 100%; 
+    background-color: white; 
+    padding: 1rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+input[type="text"] {
+    padding: 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 100%; 
+    height: 3rem; 
+}
+
+.create-list-button {
+    background-color: #3B82F6; 
+    color: white; 
+    border-radius: 0.375rem; 
+    margin-left: 0.5rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 3rem; 
+    height: 3rem; 
+    font-size: 1.5rem; 
+    padding: 0; 
+}
+
+.task-item {
+    background-color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    width: 270px;
+    height: auto;
+    display: flex; 
+    align-items: center; 
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis; 
+    box-sizing: border-box;
+}
+
+#dynamicListContainer {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1rem; 
+}
+
+.completed {
+    text-decoration: line-through; 
+    color: gray; 
+}
+
+.numbered {
+    font-weight: 600; 
+    margin-right: 10px; 
+}
+
+.list-header {
+    text-align: left; 
+    width: 100%; 
+    margin-bottom: 0.5rem; 
+    overflow: hidden; 
+    white-space: normal; 
+}
+
+.delete-list-button {
+    margin-left: auto; 
+    font-size: 1.5rem; 
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+}
+
+
+/* Prabhu Prasad Das */
